@@ -60,7 +60,7 @@ workflows:
   version: 2
   just_build_wf:
     jobs:
-      -build:
-        filters:
-          tags:
-            only: /.*/
+      - build:
+          filters:
+            tags:
+              only: /.*/
