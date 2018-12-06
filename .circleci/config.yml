@@ -57,7 +57,7 @@ jobs:
           destination: test-reports
 
 workflows:
-  version: 2:
+  version: 2
   just_build_wf:
     jobs:
       -build:
