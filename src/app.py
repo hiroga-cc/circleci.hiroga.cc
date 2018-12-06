@@ -1,4 +1,4 @@
-import requests
+from pprint import pprint
 
-r = requests.get('https://api.github.com/user', auth=('user', 'pass'))
-print(r.status_code)
+d = {'lang': 'jp'}
+pprint(d)
